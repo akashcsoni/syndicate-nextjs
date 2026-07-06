@@ -1,0 +1,3522 @@
+/* =====================================
+    Template Name: Syndicate Business Advisory
+    Author Name: WebbyCrown
+    Description: Syndicate Business Advisory - HTML5 Template.
+    Version:1.0
+========================================*/
+
+/*======================================
+[ Responsive Table of contents ]
+
+01. 1440px Laptop layout CSS
+||--- Home page one
+|---- 01. Hero section CSS
+|---- 02. about company section CSS
+|--- Media screen max width 1360
+||--- Home page one
+|---- 01. Hero section CSS
+|---- 02. about company section CSS
+|---- 03. What we do section CSS
+|
+||--- Home page Three
+|----- 01 Hero banner section style 3 CSS
+|----- 02. about company section style 3 CSS
+|----- 03. Testimonial section style 3 CSS
+|----- 04. How We Work section style 3 CSS
+|
+02. 1199px Tablet landscape layout CSS
+||--- Home page one
+|---- 01. Header CSS
+|---- 02. Hero section CSS
+|---- 03. section heading css
+|---- 04. about company section CSS
+|---- 05. our sucess section
+|---- 06. Testimonial section
+|---- 07. Footer style
+|
+||--- Home page Two
+|---- 01. about company section style 2 CSS
+|---- 02. How we help section style 2 CSS
+|---- 03. our services section style 2 CSS
+|---- 04. Testimonial section style 2 CSS
+|
+||--- Home page Three
+|----- 01. our services section style 3 CSS
+|----- 02. Testimonial section style 3 CSS
+|----- 03. How We Work section style 3 CSS
+|
+||--- About page style
+|----- 01. Inner hero section style CSS
+|----- 02. Our Specialties section style CSS
+|----- 03. Quick Online Consultancy section style CSS
+|
+||--- Presantation page style
+|----- 01. Presantation hero banner section CSS
+|----- 02. footer four CSS
+|
+||--- Career page style
+|----- 01. how we care section CSS
+|
+02. 991px Tablet Portrait layout CSS
+||--- Home page one
+|---- Mobile menu CSS
+|---- 01. Header CSS
+|---- 02. Hero section CSS
+|---- 03. All section style
+|---- 03. section heading css
+|---- 04. about company section CSS
+|---- 05. Why choose Us? section
+|---- 06. Testimonial section
+|---- 07. Footer style
+|
+||--- Home page Two
+|---- 01. Header style 2 CSS
+|---- 02. our sucess section style 2 CSS
+|---- 03. about company section style 2 CSS
+|---- 04. Get free quote!! style 2 CSS
+|---- 05. Why choose Us? section style 2 CSS
+|---- 06. How we help section style 2 CSS
+|---- 07. our services section style 2 CSS
+|---- 08. Testimonial section style 2 CSS
+|---- 09. Pricing section style 2 CSS
+|---- 10. Latest blog posts section style 2 CSS
+|
+||--- Home page Three
+|---- 01. Header style 3 CSS
+|---- 02. Hero banner section style 3 CSS
+|---- 03. Logos section style 3 CSS
+|---- 04. our services section style 3 CSS
+|---- 05. about company section style 3 CSS
+|---- 06. Testimonial section style 3 CSS
+|---- 07. How We Work section style 3 CSS
+|---- 08. Footer style 3 CSS
+|
+||--- About page style
+|----- 01. Inner hero section style CSS
+|----- 02. Our Specialties section style CSS
+|----- 03. Quick Online Consultancy section style CSS
+|
+||--- Our services page style
+|----- 01. our services section page style CSS
+|
+||--- Service detail page style
+|----- 01. Inner Image with text section style CSS
+|----- 02. inner why choose section style CSS
+|
+||--- Blog Standard page style
+|----- 01. blog full grig style CSS
+|
+||--- blog single page style
+|----- 01. blog single content style CSS
+|
+||--- Contact page style
+|----- 01. Contact detail box style CSS
+|
+||--- Presantation page style
+|----- 01. Stunning Home grig section CSS
+|----- 02. Multipurpose HTML section CSS
+|----- 03. footer four CSS
+|
+||--- Career page style
+|----- 01. Career Opportunity section CSS
+|----- 02. Current Openings section CSS
+|----- 03. Recruitment Process section CSS
+|
+03. 767px Mobile landscape layout CSS
+||--- Home page one
+|---- 01. Header CSS
+|---- 02. Hero section CSS
+|---- 03. business services section CSS
+|---- 04. about company section CSS
+|---- 05. Why choose Us? section
+|---- 06. our sucess section
+|---- 07. Testimonial section
+|---- 08. How we help section
+|---- 09. blog grid
+|---- 10. Footer style
+|---- 11. Mixins
+|
+||--- Home page Two
+|---- 01. Header style 2 CSS
+|---- 02. Hero section style 2 CSS
+|---- 03. our sucess section style 2 CSS
+|---- 04. about company section style 2 CSS
+|---- 05. Get free quote!! style 2 CSS
+|---- 06. Logos section style 2 CSS
+|---- 07. How we help section style 2 CSS
+|---- 08. our services section style 2 CSS
+|---- 09. Testimonial section style 2 CSS
+|---- 10. Pricing section style 2 CSS
+|---- 11. Latest blog posts section style 2 CSS
+|---- 12. Footer style 2 CSS
+|
+||--- Home page Three
+|---- 01. Header style 3 CSS
+|---- 02. Hero banner section style 3 CSS
+|---- 03. our services section style 3 CSS
+|---- 04. about company section style 3 CSS
+|---- 05. Why choose Us? section style 2 CSS
+|---- 06. Our Recent Projects section style 3 CSS
+|---- 07. Blog & Articles section style 3 CSS
+|---- 08. Footer style 3 CSS
+|
+||--- About page style
+|----- 01. Inner hero section style CSS
+|----- 02. Our Specialties section style CSS
+|----- 03. Our Team Members section style CSS
+|----- 04. Quick Online Consultancy section style CSS
+|
+||--- Our services page style
+|----- 01. our services section page style CSS
+|
+||--- Service detail page style
+|----- 01. Inner Image with text section style CSS
+|----- 02. Image with text overlay section style CSS
+|----- 03. inner why choose section style CSS
+|-----  +  Accordion style
+|----- 04. Related section style CSS
+|
+||--- Portfolio Detail page style
+|----- 01. inner cms section style CSS
+|
+||--- Testimonial page style
+|----- 01. Testimonial grid style CSS
+|
+||--- Team Member detail page style
+|
+||--- Blog Standard page style
+|----- 01. blog full grig style CSS
+|----- 02. Sidebar style CSS 
+|
+||--- blog single page style
+|----- 01. blog single content style CSS
+|
+||--- Contact page style
+|----- 01. Contact detail box style CSS
+|----- 02. Contact form section style CSS
+|----- 03. Contact map style CSS
+|
+||--- 404 page style
+|----- 01. not found content style CSS
+|
+||--- Presantation page style
+|----- 01. Presantation hero banner section CSS
+|----- 02. Stunning Home grig section CSS
+|----- 03. Stunning Inner grig section CSS
+|----- 04. Multipurpose HTML section CSS
+|----- 05. Presantation Why choose Us? section CSS
+|----- 06. footer four CSS
+|
+||--- Career page style
+|----- 01. Career Opportunity section CSS
+|----- 02. Current Openings section CSS
+|----- 03. Recruitment Process section CSS
+|----- 04. how we care section CSS
+|
+||--- all pupop CSS style
+||--- cookie popup
+||--- Langing page style
+|
+04. 575px Mobile layout CSS
+|--- Mixins
+||--- Home page one
+|---- 01. Header CSS
+|---- 02. Hero section CSS
+|---- 03. business services section CSS
+|---- 04. about company section CSS
+|---- 05. What we do section CSS
+|---- 06. Why choose Us? section
+|---- 07. our sucess section
+|---- 08. Testimonial section
+|---- 09. How we help section
+|---- 10. blog grid
+|---- 11. Footer style
+|
+||--- Home page Two
+|---- 01. Header style 2 CSS
+|---- 02. our sucess section style 2 CSS
+|---- 03. Get free quote!! style 2 CSS
+|---- 04. Logos section style 2 CSS
+|---- 05. Why choose Us? section style 2 CSS
+|---- 06. How we help section style 2 CSS
+|---- 07. our services section style 2 CSS
+|---- 08. Pricing section style 2 CSS
+|---- 09. Latest blog posts section style 2 CSS
+|
+||--- Home page Three
+|---- 01. Header style 3 CSS
+|---- 02. Hero banner section style 3 CSS
+|---- 03. Logos section style 3 CSS
+|---- 04. our services section style 3 CSS
+|---- 05. about company section style 3 CSS
+|---- 06. Why choose Us? section style 2 CSS
+|---- 07. Our Recent Projects section style 3 CSS
+|---- 08. Testimonial section style 3 CSS
+|---- 09. How We Work section style 3 CSS
+|
+||--- Testimonial page style
+|----- 01. Testimonial grid style CSS
+
+
+
+
+========================================*/
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1270px;
+    }
+}
+
+
+/*======================================
+ 01. 1440px Laptop layout CSS
+========================================*/
+@media only screen and (max-width: 1440px) {
+
+    /* 01. Hero section CSS */
+    .hero-content {
+        max-width: 680px;
+    }
+
+    h1,
+    .h1 {
+        font-size: var(--h2);
+        line-height: var(--h2-lineHeight);
+    }
+
+    .hero-content h1 span:before {
+        width: 117px;
+        height: 117px;
+        top: -40px;
+        right: -40px;
+    }
+
+    .hero-images {
+        max-width: 695px;
+    }
+
+    .hero-line-shape {
+        max-width: 350px;
+    }
+
+    /* 02. about company section CSS */
+    .about-shape-line {
+        max-width: 140px;
+        width: 100%;
+    }
+
+    .about-shape-line span {
+        width: 100%;
+    }
+
+    .hero-slider-style-2 .swiper-button-next {
+        right: 20px;
+    }
+
+    .hero-slider-style-2 .swiper-button-prev {
+        left: 20px;
+    }
+
+
+    /*================ 
+        Home page Three
+    ==================*/
+
+    /*01 Hero banner section style 3 CSS*/
+    .hero-section-style-3 .hero-images-style-3:before {
+        width: 60%;
+    }
+
+    /*02. about company section style 3 CSS*/
+    .about-image-gallery-style-3 .about-image-info {
+        right: 0;
+    }
+
+    /*03. Testimonial section style 3 CSS*/
+    .testimonial-slider-home-3 {
+        padding-right: 50px;
+    }
+
+    .testimonial-slider-home-3 .swiper-pagination {
+        right: 10px;
+    }
+
+    /*04. How We Work section style 3 CSS*/
+    .how-we-work-grid {
+        width: 270px;
+        height: 270px;
+    }
+}
+
+/*media screen max width 1360*/
+
+@media only screen and (max-width: 1360px) {
+
+    /* 01. Hero section CSS */
+    .hero-thumbs .swiper-button-next {
+        margin-top: 10px;
+    }
+
+    .hero-thumbs .swiper-button-prev {
+        margin-bottom: 10px;
+    }
+
+    .hero-thumbs-slider {
+        height: 230px;
+    }
+
+    .hero-thumbs {
+        top: 50px;
+    }
+
+    /* 02. about company section CSS */
+    .about-company-section {
+        padding: 0 20px;
+    }
+
+    .about-image-gallery {
+        gap: 20px;
+    }
+
+    .about-shape-line {
+        bottom: -30px;
+    }
+
+    /*03. What we do section CSS*/
+    .what-we-do-slider {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .what-we-do-slider .swiper-button-next {
+        right: 15px;
+    }
+
+    .what-we-do-slider .swiper-button-prev {
+        left: 15px;
+    }
+
+    .our-sucess-section {
+        padding: 0 30px;
+    }
+
+    /*================ 
+        Home page Three
+    ==================*/
+    .header-style-3 .main-menu {
+        gap: 30px;
+    }
+}
+
+
+/*======================================
+ 01. 1199px Tablet Landscape layout CSS
+========================================*/
+@media only screen and (max-width: 1199px) {
+
+    /*01. Header CSS*/
+    .main-menu {
+        gap: 12px;
+    }
+
+    /*02. Hero section CSS*/
+    .hero-images {
+        max-width: 525px;
+    }
+
+    .hero-thumbs {
+        left: 30px;
+    }
+
+    /*03. section heading css*/
+    .section-heading {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    h2.title {
+        font-size: var(--h3);
+        line-height: var(--h3-lineHeight);
+    }
+
+    h2,
+    .h2 {
+        font-size: var(--h3);
+        line-height: var(--h3-lineHeight);
+    }
+
+    h5,
+    .h5 {
+        font-size: var(--h6);
+        line-height: var(--h6-lineHeight);
+    }
+
+    /*04. about company section CSS*/
+    .our-feature .about-feature-icon {
+        width: 78px;
+        height: 78px;
+        flex-shrink: 0;
+    }
+
+    /*05. our sucess section*/
+    .our-sucess-service h2 {
+        font-size: var(--h2);
+        line-height: var(--h2-lineHeight);
+    }
+
+    .our-sucess-box .section-heading {
+        margin-bottom: 30px;
+    }
+
+    /*06. Testimonial section*/
+    .testimonial-info {
+        padding: 0 110px;
+    }
+
+    /*07. Footer style*/
+    .footer-one .get-free-quote-form .form-control {
+        padding: 12px 20px;
+    }
+
+    /*================ 
+        Home page Two
+    ==================*/
+    .mainmenu-style-2 .main-menu li a {
+        padding: 24px 9px;
+    }
+
+    /*01. about company section style 2 CSS*/
+    .about-image-gallery-style-2 .about-image.image-2 {
+        max-width: 200px;
+        margin: -150px 0 0 auto;
+    }
+
+    /*02. How we help section style 2 CSS*/
+    .how-we-help-content {
+        padding: 60px 20px;
+    }
+
+    /*03. our services section style 2 CSS*/
+    .what-we-do-service {
+        padding: 35px 20px;
+    }
+
+    /*04. Testimonial section style 2 CSS*/
+    .testimonial-slider-home-2 {
+        padding: 60px 20px 33px;
+    }
+
+    .testimonial-slider-home-2 .testimonial-info p {
+        font-size: var(--font-size-b2);
+        line-height: var(--line-height-b2);
+    }
+
+    /*================ 
+        Home page Three
+    ==================*/
+    .header-style-3 .main-menu {
+        gap: 12px;
+    }
+
+    /*01. our services section style 3 CSS*/
+    .what-we-do-service.service-style-3 {
+        gap: 15px;
+    }
+
+    /*02. Testimonial section style 3 CSS*/
+    .testimonial-grid .testimonial-item-box. .testimonial-slider-home-3 .testimonial-item-box {
+        padding: 25px 25px;
+    }
+
+    /*03. How We Work section style 3 CSS*/
+    .how-we-work-grid {
+        width: 230px;
+        height: 230px;
+    }
+
+    .how-we-work-front .how-we-work-number {
+        width: 45px;
+        height: 45px;
+    }
+
+    .how-we-work-front .how-we-work-icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .how-we-work-front h6 {
+        font-size: var(--font-size-b3);
+    }
+
+    .how-we-work-front:hover p {
+        margin-top: 3px;
+    }
+
+    /*================ 
+        About us page Three
+    ==================*/
+    /*02. Inner hero section style CSS*/
+    .inner-hero-section {
+        min-height: 400px;
+        padding: 100px 0 40px;
+    }
+
+    /*02. Our Specialties section style CSS*/
+    .our-specialties-box {
+        padding: 40px 15px 30px;
+    }
+
+    .our-specialties-box h3 {
+        font-size: var(--h5);
+        line-height: var(--h5-lineHeight);
+    }
+
+    .our-specialties-box p {
+        font-size: var(--font-size-b3);
+    }
+
+    /*03. Quick Online Consultancy section style CSS*/
+    .quick-consultancy-form {
+        padding: 20px;
+    }
+
+    .quick-consultancy-form h3 {
+        margin-bottom: 20px;
+        font-size: var(--h5);
+        line-height: var(--h5-lineHeight);
+    }
+
+    /*================ 
+        Presantation page style
+    ==================*/
+    /*01. Presantation hero banner section CSS*/
+    .presantation-hero-section {
+        padding: 145px 0 100px;
+    }
+
+    /*02. footer four CSS */
+    .footer-four h2 {
+        font-size: var(--h2);
+        line-height: var(--h2-lineHeight);
+    }
+
+    /*================ 
+        Career page style
+    ==================*/
+    /*04. how we care section CSS*/
+    .how-we-care-section:before {
+        width: 46%;
+    }
+
+    .blog-grid-style-3.case-study .blog-info {
+        padding: 20px;
+    }
+
+    .blog-grid-style-3.case-study h6 {
+        font-size: 24px;
+        line-height: normal;
+        margin: 10px 0;
+    }
+
+    .blog-grid-style-3.case-study .blog-date {
+        padding: 7px 16px;
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+}
+
+/*======================================
+ 02. 991px Tablet Portrait layout CSS
+========================================*/
+
+/*Sub menu Dropdowns*/
+@media (min-width: 992px) {
+    .main-menu .dropdown-menu {
+        display: block !important;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+        padding: 8px;
+        border: none;
+        left: -15px;
+        border-radius: 12px;
+        background: #fff;
+        width: 220px;
+        box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+    }
+
+    .main-menu li.dropdown>a::after {
+        display: inline-block;
+        margin-left: 5px;
+        vertical-align: baseline;
+        font-family: 'Font Awesome 6 free';
+        content: "\f078";
+        font-weight: 900;
+        border: none;
+        font-size: 13px;
+    }
+
+    .main-menu li.dropdown>a:hover:after {
+
+        transform: rotate(180deg);
+    }
+
+    .main-menu .dropdown-menu li {
+        border-bottom: 1px solid #eee;
+    }
+
+    .main-menu li .dropdown-menu li:last-child {
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+
+    .main-menu li .dropdown-menu li a {
+        padding: 10px 0px 10px 15px;
+        font-size: var(--font-size-b3);
+        line-height: var(--line-height-b3);
+        color: var(--color-dark);
+        font-weight: var(--medium);
+        position: relative;
+        text-transform: capitalize;
+        transition: all .5s ease-in-out;
+        z-index: 1;
+        display: block;
+        width: 100%;
+        text-align: inherit;
+        text-decoration: none;
+        white-space: nowrap;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .main-menu li .dropdown-menu li a:hover {
+        background: transparent;
+        color: var(--color-secondary);
+        padding-left: 20px;
+    }
+
+    .main-menu .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+
+    .main-menu>li:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+    }
+
+    .header-style-3 .main-menu li:last-child .dropdown-menu {
+        left: auto;
+        right: -15px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    /*Mobile menu CSS*/
+    .mobile-menu .menu-close {
+        display: block;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+
+    .mobile-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        background: var(--color-tertiary);
+        padding: 40px;
+        transition: all 0.3s ease;
+    }
+
+    .mobile-menu.open {
+        right: 0;
+    }
+
+    .mobile-menu .main-menu {
+        display: block;
+        text-align: center;
+        height: calc(100vh - 86px);
+        overflow-y: auto;
+        transition: all 0.5s ease;
+        transform: translateX(50px);
+        opacity: 0;
+        transition-delay: 0.3s;
+    }
+
+    .mobile-menu.open .main-menu {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+    .mobile-menu .main-menu li {
+        margin-bottom: 12px;
+        position: relative;
+    }
+
+    .mobile-menu .main-menu li a {
+        color: var(--color-dark);
+    }
+
+    .mobile-menu .main-menu li a:hover {
+        color: var(--color-body);
+    }
+
+    .mobile-menu .main-menu li a {
+        font-size: var(--font-size-b1);
+        line-height: var(--line-height-b1);
+        color: var(--color-dark);
+    }
+
+    .mobile-menu .main-menu li.menu-btn a:hover {
+        color: var(--color-white);
+    }
+
+    .mobile-menu .main-menu li .caret-arrow {
+        display: inline-block;
+        margin-left: 5px;
+        vertical-align: baseline;
+        border: none;
+        font-size: var(--font-size-b4);
+        color: var(--color-dark);
+        padding: 0 5px;
+        cursor: pointer;
+    }
+
+    .mobile-menu .main-menu li .caret-arrow::after {
+        font-family: 'Font Awesome 6 free';
+        content: "\f078";
+        font-weight: 900;
+        transition: all 0.3s ease;
+        display: block;
+    }
+
+    .mobile-menu .main-menu li .caret-arrow.sub-active::after {
+        transform: rotate(180deg);
+    }
+
+    .mobile-menu .dropdown-menu {
+        display: block;
+        position: static;
+        background: transparent;
+        border-radius: 0;
+        border: 0;
+        text-align: center;
+    }
+
+    .mobile-menu .dropdown-menu li a {
+        font-size: var(--font-size-b3);
+        line-height: normal;
+    }
+
+    /*01. Header CSS*/
+    .main-navigation {
+        padding: 10px 0;
+    }
+
+    .toggle-menu-button {
+        display: block;
+        width: 30px;
+        margin-left: 15px;
+    }
+
+    .toggle-menu-button a span {
+        width: 100%;
+        display: block;
+        height: 3px;
+        margin: 5px 0;
+        background: var(--color-primary);
+        transition: all 0.3s ease;
+    }
+
+    .toggle-menu-button a.active span:nth-of-type(3) {
+        display: none;
+    }
+
+    .toggle-menu-button a.active span:nth-of-type(1) {
+        transform: rotate(45deg);
+        margin-top: 0;
+    }
+
+    .toggle-menu-button a.active span:nth-of-type(2) {
+        transform: rotate(-45deg);
+        margin-top: -7px;
+    }
+
+    .logo-img {
+        max-width: 140px;
+    }
+
+    /*02. Hero section CSS*/
+    .hero-images {
+        max-width: 415px;
+    }
+
+    .hero-thumbs-slider {
+        height: 170px;
+    }
+
+    .hero-thumbs-img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .hero-thumbs {
+        left: 10px;
+    }
+
+    .hero-btn {
+        width: 70px;
+        height: 70px;
+    }
+
+    .hero-btn:before {
+        top: 3px;
+        left: 3px;
+    }
+
+    .hero-thumbs .swiper-button-prev,
+    .hero-thumbs .swiper-button-next {
+        height: 34px;
+    }
+
+    /*03. All section style*/
+    .what-we-do-section,
+    .business-services-section,
+    .why-choose-us-section,
+    .our-sucess-box,
+    .testimonial-section,
+    .blog-articles-section {
+        padding: 60px 0;
+    }
+
+    .about-company-section {
+        margin-bottom: 60px;
+    }
+
+    /*04. section heading css*/
+    .section-heading {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    h2.title {
+        font-size: var(--h3);
+        line-height: var(--h3-lineHeight);
+    }
+
+    h2,
+    .h2 {
+        font-size: var(--h3);
+        line-height: var(--h3-lineHeight);
+    }
+
+    h5,
+    .h5 {
+        font-size: var(--h6);
+        line-height: var(--h6-lineHeight);
+    }
+
+    h6,
+    .h6 {
+        font-size: var(--font-size-b3);
+        line-height: var(--line-height-b3);
+    }
+
+    .business-service-grid h4 {
+        font-size: var(--font-size-b3);
+        line-height: var(--line-height-b3);
+    }
+
+    /*05. about company section CSS*/
+    .our-feature .about-feature-icon {
+        width: 78px;
+        height: 78px;
+        flex-shrink: 0;
+    }
+
+    .about-info {
+        padding-left: 0;
+        max-width: 100%;
+        padding-top: 30px;
+    }
+
+    /*05. Why choose Us? section*/
+    .tabs-list li {
+        padding: 15px 25px;
+    }
+
+    /*06. Testimonial section*/
+    .testimonial-info {
+        padding: 0 110px;
+    }
+
+    .testimonial-info p {
+        font-size: var(--font-size-b3);
+        line-height: var(--line-height-b3);
+    }
+
+    .testimonial-slider .swiper-button-next,
+    .testimonial-slider .swiper-button-prev {
+        width: 54px;
+        height: 54px;
+    }
+
+    .testimonial-slider .swiper-button-next img,
+    .testimonial-slider .swiper-button-prev img {
+        max-width: 30px;
+    }
+
+    .how-we-help-content {
+        padding: 30px 20px;
+    }
+
+    /*07. Footer style*/
+    .footer-one .get-free-quote-form .form-control {
+        padding: 12px 20px;
+    }
+
+    .footer-one .get-free-quote h2 {
+        font-size: var(--h4);
+        line-height: var(--h4-lineHeight);
+    }
+
+    .footer-one .get-free-quote {
+        padding: 25px 0;
+    }
+
+    .footer-one .footer-link.menu1,
+    .footer-one .footer-link.menu2 {
+        padding-left: 0px;
+    }
+
+    .footer-widget-about {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    /*================ 
+        Home page Two
+    ==================*/
+
+    /*01. Header style 2 CSS */
+    .header-style-2.sticky {
+        top: -69px;
+    }
+
+    .header-style-2-left p {
+        font-size: 12px;
+    }
+
+    .mainmenu-style-2 .toggle-menu-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .mainmenu-style-2 .toggle-menu-button a {
+        width: 100%;
+    }
+
+    .mainmenu-style-2 .main-menu li a {
+        padding: 20px 10px;
+        font-size: var(--font-size-b4);
+    }
+
+    .phoneline-style-2 a {
+        padding: 15px 10px 15px 30px;
+        font-size: var(--font-size-b3);
+    }
+
+    .hero-slider-style-2 .swiper-button-prev,
+    .hero-slider-style-2 .swiper-button-next {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hero-slider-style-2 .swiper-button-prev img,
+    .hero-slider-style-2 .swiper-button-next img {
+        max-width: 30px;
+    }
+
+    /*02. our sucess section style 2 CSS*/
+    .our-sucess-box-style-2 .our-sucess-service {
+        padding: 25px 0;
+    }
+
+    .our-sucess-box-style-2 .our-sucess-service h2 {
+        font-size: var(--h4);
+        line-height: var(--h5-lineHeight);
+    }
+
+    /*03. about company section style 2 CSS*/
+    .about-company-section-style-2 {
+        padding: 60px 0 50px;
+    }
+
+    .about-image-gallery-style-2 {
+        max-width: 530px;
+        margin: 0 auto 30px;
+    }
+
+    /*04. Get free quote!! style 2 CSS*/
+    .get-free-quote-style-2 {
+        padding: 40px 0;
+    }
+
+    /*05. Why choose Us? section style 2 CSS*/
+    .why-choose-us-section-style-2 {
+        padding: 60px 0;
+    }
+
+    /*06. How we help section style 2 CSS*/
+    .how-we-help-content {
+        padding: 60px 20px;
+    }
+
+    .how-we-help-tabs-list .tabs-content.current {
+        max-width: 100%;
+    }
+
+    /*07. our services section style 2 CSS*/
+    .our-services-section-style-2 {
+        padding: 60px 0 80px;
+    }
+
+    /*08. Testimonial section style 2 CSS*/
+    .testimonial-section-style-2 {
+        position: relative;
+        padding: 50px 0;
+    }
+
+    .testimonial-section-style-2 .section-heading {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .testimonial-section-style-2 .section-heading .quotes-icon {
+        margin-bottom: 20px;
+    }
+
+    .testimonial-slider-home-2 {
+        padding: 60px 20px 33px;
+    }
+
+    .testimonial-slider-home-2 .testimonial-info p {
+        font-size: var(--font-size-b2);
+        line-height: var(--line-height-b2);
+    }
+
+    /*09. Pricing section style 2 CSS*/
+    .pricing-section-style-2 {
+        padding: 60px 0 50px;
+    }
+
+    .pricing-section-style-2 .section-heading {
+        margin-bottom: 40px;
+    }
+
+    .pricing-box {
+        padding: 40px 25px 25px;
+    }
+
+    .pricing-box .pricing-heading {
+        padding-bottom: 23px;
+        gap: 10px;
+    }
+
+    .pricing-box .pricing-heading .pricing-icon {
+        max-width: 80px;
+    }
+
+    .pricing-box .pricing-list ul li p {
+        margin: 0;
+        font-size: var(--font-size-b3);
+    }
+
+    /*10. Latest blog posts section style 2 CSS*/
+    .blog-posts-section-style-2 {
+        margin-bottom: 0px;
+        background: linear-gradient(179.95deg, rgba(242, 222, 186, 0.78) 0.04%, rgba(255, 255, 255, 0) 103.02%);
+        padding: 60px 0;
+    }
+
+    .blog-posts-section-style-2:before {
+        display: none;
+    }
+
+    .blog-posts-section-style-2 .row-custome .col-md-6 {
+        -ms-grid-column: span 4;
+        grid-column: span 4;
+        -ms-grid-row: span 1;
+        grid-row: span 1;
+    }
+
+    .blog-posts-section-style-2 .row-custome .col-md-4 .blog-grid-style-2 {
+        display: block;
+    }
+
+    .blog-posts-section-style-2 .row-custome .col-md-4 .blog-grid-style-2 .blog-img {
+        width: 100%;
+    }
+
+    .blog-posts-section-style-2 .row-custome .col-md-4 .blog-grid-style-2 .blog-info {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .blog-posts-section-style-2 .row-custome .col-md-4 .blog-grid-style-2 {
+        border: 0;
+        background: transparent;
+        border-radius: 0;
+    }
+
+    /*================ 
+        Home page Three
+    ==================*/
+
+    /*01. Header style 3 CSS*/
+
+    .header-style-3 .header-right {
+        gap: 20px;
+    }
+
+    .header-style-3 .toggle-menu-button a span {
+        background: var(--color-white);
+    }
+
+    /*02. Hero banner section style 3 CSS*/
+    .hero-section-style-3 {
+        padding: 80px 0 0;
+    }
+
+    .hero-section-style-3 .hero-content {
+        padding-bottom: 45px;
+    }
+
+    .hero-section-style-3 .hero-content p {
+        margin: 0 0 20px;
+    }
+
+    /*03. Logos section style 3 CSS*/
+    .logos-section-style-3 {
+        padding: 30px 0;
+    }
+
+    /*04. our services section style 3 CSS*/
+    .our-services-section-style-3 {
+        padding-top: 50px;
+    }
+
+    /*05. about company section style 3 CSS*/
+    .about-company-section-style-3 {
+        padding: 60px 0 60px;
+    }
+
+    /*06. Testimonial section style 3 CSS*/
+
+    .testimonial-video-image:before {
+        content: '';
+        padding-top: 80%;
+        display: block;
+    }
+
+    .testimonial-slider-home-3 {
+        padding: 0;
+        margin: 30px 0;
+    }
+
+    .testimonial-slider-home-3 .swiper-pagination {
+        right: auto;
+        left: 0;
+        top: auto;
+        bottom: -40px;
+        transform: translate3d(0px, 0, 0);
+        width: 100%;
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    .testimonial-slider-home-3 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        width: 40px;
+        height: 10px;
+    }
+
+    /*07. How We Work section style 3 CSS*/
+    .how-we-work-section-style-3 {
+        padding: 70px 0;
+    }
+
+    .how-we-work-grid {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto 15px;
+    }
+
+    /*08. Footer style 3 CSS*/
+    .footer-three .footer-widget-about {
+        text-align: left;
+    }
+
+    .newsletter-form .get-free-quote-form .form-control {
+        padding: 10px 60px 10px 10px;
+    }
+
+    /*================ 
+        About us page Three
+    ==================*/
+    /*02. Inner hero section style CSS*/
+    .inner-hero-section {
+        min-height: inherit;
+        padding: 80px 0 50px;
+    }
+
+    /*02. Our Specialties section style CSS*/
+    .our-specialties-section {
+        padding: 50px 0;
+    }
+
+    .our-specialties-box {
+        padding: 40px 15px 30px;
+        margin-bottom: 20px;
+    }
+
+    .team-members-section {
+        padding: 50px 0;
+    }
+
+    /*03. Quick Online Consultancy section style CSS*/
+    .quick-consultancy-form {
+        padding: 20px;
+        margin-top: 80px;
+    }
+
+    /*================ 
+        Our services page style
+    ==================*/
+    /*01. our services section page style CSS*/
+    .our-services-section-page {
+        padding: 60px 0 30px;
+    }
+
+    .inner-wrapper {
+        padding: 50px 0;
+    }
+
+    /*================ 
+        Service detail page style
+    ==================*/
+    /*01. Inner Image with text section style CSS*/
+    .inner-image-with-text-section {
+        padding: 80px 0 60px;
+    }
+
+    /*02. inner why choose section style CSS*/
+    .inner-why-choose-section .ul-list li {
+        width: 100%;
+    }
+
+    /*================ 
+        Blog Standard page style
+    ==================*/
+    /*01. blog full grig style CSS*/
+    .blog-full-grig .blog-info {
+        padding: 20px 20px !important;
+    }
+
+    .blog-admin-info .blog-date {
+        font-size: var(--font-size-b4);
+    }
+
+    .blog-full-grig .blog-info .btn {
+        font-size: var(--font-size-b3);
+        padding: 8px 20px;
+    }
+
+    /*================ 
+        blog single page style
+    ==================*/
+    /*01. blog single content style CSS*/
+    .blockqoute {
+        padding: 20px 20px;
+        gap: 20px;
+    }
+
+    .blog-details-tags .blog-tags li {
+        margin-left: 10px;
+    }
+
+    /*================ 
+        Contact page style
+    ==================*/
+    /*01. Contact detail box style CSS*/
+    .contact-detail-box {
+        padding: 20px 15px;
+    }
+
+    .contact-detail-box .icon {
+        max-width: 55px;
+        height: 55px;
+        margin: 0 auto 15px;
+    }
+
+    .contact-detail-box h6 {
+        font-size: var(--font-size-b2);
+    }
+
+    .contact-detail-box p {
+        font-size: var(--font-size-b3);
+    }
+
+    .contact-gallery .about-image.image-2 {
+        margin: -60px 0 0 auto !important;
+    }
+
+    /*================ 
+        Presantation page style
+    ==================*/
+    /*01. Stunning Home grig section CSS*/
+    .presantation-heading.section-heading h2.title {
+        font-size: var(--h3);
+    }
+
+    .stunning-grid-style .stunning-grid-title {
+        font-size: var(--font-size-b2);
+    }
+
+    /*02. Multipurpose HTML section CSS*/
+    .multipurpose-html-images {
+        margin-right: -50px;
+    }
+
+    .multipurpose-html-project {
+        padding: 20px;
+    }
+
+    .multipurpose-html-project h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    /*03. footer four CSS*/
+    .footer-four {
+        padding: 60px 0;
+    }
+
+    /*================ 
+        Career page style
+    ==================*/
+    /*01. Career Opportunity section CSS*/
+    .career-opportunity-box {
+        padding: 35px 20px;
+    }
+
+    .career-opportunity-box p {
+        font-size: var(--font-size-b2);
+        line-height: var(--line-height-b3);
+    }
+
+    /*02. Current Openings section CSS*/
+    .current-opportunity-section .accordion-content {
+        padding: 15px 20px 20px;
+    }
+
+    /*03. Recruitment Process section CSS*/
+    .recruitment-process-wrap {
+        margin-bottom: 25px;
+    }
+
+    .recruitment-process-section .col-lg-3:nth-of-type(2n+1) .recruitment-process-wrap:before {
+        display: none;
+    }
+
+    /*cookie popup*/
+    .cookie-popup {
+        padding: 20px 0 20px;
+    }
+
+    .cookie-button .button-column .btn {
+        padding: 9px 35px;
+        font-size: var(--font-size-b3);
+    }
+
+    .cookie-popup .section-heading {
+        margin-bottom: 10px;
+    }
+
+    .cookie-popup .popup-title {
+        font-size: var(--h5);
+        line-height: var(--h5-lineHeight);
+    }
+
+
+
+
+
+}
+
+/*======================================
+ 03. 767px Mobile landscape layout CSS
+========================================*/
+
+@media only screen and (max-width: 767px) {
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    /*pagination style*/
+    .pagination {
+        gap: 5px;
+    }
+
+    .pagination .page-item .page-link {
+        width: 40px;
+        height: 40px;
+    }
+
+    .pagination .page-item.next-page .page-link {
+        width: auto;
+        padding: 5px 10px;
+    }
+
+    .pagination-part {
+        padding: 15px 0;
+        margin-top: 30px;
+    }
+
+    /*Search popup*/
+    .search-active .search-popup .close-search {
+        top: 30%;
+        margin-top: -40px;
+    }
+
+    /*01. Header CSS*/
+    .logo-img {
+        max-width: 140px;
+    }
+
+
+    /*02. Hero section CSS*/
+    .hero-thumbs {
+        left: 0;
+        bottom: -50px;
+        top: auto;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-thumbs-slider {
+        height: auto;
+        width: 200px;
+        margin: 0;
+        display: none;
+    }
+
+    .hero-thumbs-img {
+        margin: 0 auto;
+    }
+
+    .hero-thumbs .swiper-button-prev,
+    .hero-thumbs .swiper-button-next {
+        width: 30px;
+        margin: 0 10px;
+    }
+
+    .hero-thumbs .swiper-button-prev svg {
+        transform: rotate(270deg);
+        width: 30px;
+    }
+
+    .hero-thumbs .swiper-button-next svg {
+        transform: rotate(270deg);
+        width: 30px;
+    }
+
+    .hero-content {
+        padding: 0px 0 40px;
+    }
+
+    .sub-title {
+        margin-bottom: 15px;
+    }
+
+    .hero-content h1 {
+        max-width: 450px;
+        margin: 0 auto 15px;
+    }
+
+    .hero-content p {
+        margin: 0 auto 20px;
+    }
+
+    .hero-content h1 span:before {
+        width: 70px;
+        height: 70px;
+        top: -14px;
+        right: -30px;
+    }
+
+    .hero-content-slider .swiper-wrapper .swiper-slide {
+        padding: 110px 0 0px;
+    }
+
+    .hero-content-slider .swiper-slide .hero-images .hero-images-slider {
+        display: none;
+    }
+
+
+    /* 03. business services section CSS*/
+    .section-heading {
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .business-service-grid {
+        padding-bottom: 30px;
+    }
+
+    .business-services-section {
+        padding-top: 100px !important;
+    }
+
+    .business-shape {
+        display: none;
+    }
+
+    /*04. about company section CSS*/
+    .about-video-icon .circle-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+    }
+
+    /*05. Why choose Us? section*/
+    .button-tabs-list,
+    .tabs-list {
+        display: block;
+        white-space: nowrap;
+        overflow-x: auto;
+        background-attachment: local, local, scroll, scroll;
+        text-align: center;
+        margin: 0 -12px 33px;
+    }
+
+    .button-tabs-list::-webkit-scrollbar,
+    .tabs-list::-webkit-scrollbar {
+        display: none;
+        height: 0;
+        width: 0;
+        background: rgba(0, 0, 0, 0);
+    }
+
+    .button-tabs-list li,
+    .tabs-list li {
+        padding: 10px 14px;
+        display: inline-block;
+        font-size: var(--font-size-b4);
+    }
+
+    .tabs-content.current {
+        padding: 30px 0;
+    }
+
+    .whychooseus-feature-content {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .whychooseus-feature-content .sub-title {
+        text-align: center;
+    }
+
+
+    /*06. our sucess section*/
+    .our-sucess-service {
+        margin-bottom: 20px;
+    }
+
+    .our-sucess-list .col-md-3:nth-of-type(2):before {
+        display: none;
+    }
+
+    /*07. Testimonial section*/
+    .testimonial-info {
+        padding: 0 80px;
+    }
+
+    /*08. How we help section*/
+    .how-we-help-list {
+        max-width: 100%;
+    }
+
+    .how-we-help-content .section-heading {
+        text-align: center;
+    }
+
+    /*09. blog grid*/
+    .blog-grid {
+        padding-bottom: 30px;
+    }
+
+    /*10. Footer style*/
+    .footer-one .footer-widget-about {
+        border-bottom: 1px solid #35474A;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+    }
+
+    .footer-one .get-free-quote h2 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .footer-bottom-copyright,
+    .footer-one .designed-by-text p {
+        text-align: center;
+    }
+
+    .footer-one .footer-widget-about .footer-logo {
+        margin-bottom: 15px;
+    }
+
+    .footer-one .footer-main {
+        padding-top: 30px;
+    }
+
+    .footer-one h6 {
+        margin-bottom: 15px;
+    }
+
+    .footer-one .footer-address p {
+        margin-bottom: 10px;
+    }
+
+    .footer-widget-address {
+        padding-bottom: 15px;
+    }
+
+    /*-- 11. Mixins --*/
+    .btn {
+        font-size: var(--font-size-b4);
+        line-height: var(--line-height-b3);
+    }
+
+    h1,
+    .h1 {
+        font-size: var(--h3);
+        line-height: var(--h3-lineHeight);
+    }
+
+    /*12. What we do section CSS*/
+    .what-we-do-service {
+        padding: 25px 15px;
+        display: flex;
+        gap: 14px;
+        text-align: left;
+    }
+
+    .what-we-do-service .circle-icon {
+        margin: 0;
+        flex-shrink: 0;
+        padding: 5px;
+    }
+
+    .what-we-do-service h6 {
+        margin-bottom: 5px;
+    }
+
+    /*================ 
+        Home page Two
+    ==================*/
+    body .home-two-page {
+        padding-top: 130px;
+    }
+
+    .home-two-page .sub-title {
+        margin-bottom: 10px;
+    }
+
+    .home-two-page h2.title,
+    .get-free-quote-style-2 h2 {
+        font-size: var(--30);
+        line-height: var(--h4-lineHeight);
+    }
+
+    /*01. Header style 2 CSS */
+    .header-style-2 {
+        background: var(--color-white);
+        padding-bottom: 20px;
+    }
+
+    .header-style-2.sticky {
+        top: 0px;
+        padding-bottom: 1px;
+    }
+
+    /*.header-style-2.sticky .navigation-style-2{
+        background: var(--color-tertiary);
+    }*/
+    .header-style-2 .logo-img {
+        margin: 0 auto;
+    }
+
+    .header-style-2-top {
+        transition: all 0.3s ease;
+    }
+
+    .header-style-2.sticky .header-style-2-top {
+        padding: 5px 0;
+    }
+
+    .phoneline-style-2 a .phone-title {
+        display: none;
+    }
+
+    .phoneline-style-2 a .icon {
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+        left: -20px;
+    }
+
+    .header-style-2-left a {
+        color: var(--color-primary);
+    }
+
+    .header-style-2 .logo-img .desktop-logo {
+        display: none;
+    }
+
+    .header-style-2 .logo-img .mobile-logo {
+        display: block;
+    }
+
+    .header-style-2 .header-social li a {
+        font-size: var(--font-size-b3);
+        color: var(--color-dark);
+    }
+
+    .header-style-2 .phoneline-style-2 a {
+        padding: 15px 20px 15px 30px;
+        font-size: var(--font-size-b3);
+    }
+
+    /*02. Hero section style 2 CSS*/
+    .hero-section-style-2 {
+        min-height: auto;
+    }
+
+    .hero-slider-style-2 .swiper-slide {
+        padding: 60px 0 90px;
+        min-height: auto;
+        height: auto;
+    }
+
+    .hero-slider-style-2 .hero-content {
+        padding: 0px;
+    }
+
+    .hero-slider-style-2 .swiper-button-prev {
+        left: calc(50% - 45px);
+    }
+
+    .hero-slider-style-2 .swiper-button-next {
+        right: calc(50% - 45px);
+    }
+
+    .hero-slider-style-2 .swiper-button-prev,
+    .hero-slider-style-2 .swiper-button-next {
+        width: 40px;
+        height: 40px;
+        top: auto;
+        bottom: 20px;
+    }
+
+    .hero-slider-style-2 .swiper-button-prev img,
+    .hero-slider-style-2 .swiper-button-next img {
+        max-width: 25px;
+    }
+
+    /*03. our sucess section style 2 CSS*/
+    .our-sucess-section-style-2 {
+        padding: 15px 0 0;
+    }
+
+    .our-sucess-box-style-2 {
+        margin: 0 -12px;
+    }
+
+    .our-sucess-box-style-2 .our-sucess-service {
+        padding: 25px 15px;
+        margin-bottom: 0;
+    }
+
+    .our-sucess-box-style-2 .our-sucess-service h2 {
+        font-size: var(--h5);
+        line-height: var(--h5-lineHeight);
+    }
+
+    /*04. about company section style 2 CSS*/
+    .about-image-gallery-style-2 .about-image {
+        width: 70%;
+    }
+
+    .about-info-style-2 .about-feature-list {
+        margin-bottom: 0;
+    }
+
+    .about-video-style-2 .about-video-dec {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .about-video-style-2 .about-video-dec p {
+        font-size: var(--font-size-b3);
+        line-height: var(--line-height-b3);
+    }
+
+    .about-video-style-2 .about-video-icon .circle-icon {
+        width: 44px;
+        height: 44px;
+        font-size: var(--h6);
+    }
+
+    .about-info-style-2 .call-booking {
+        margin: 0;
+    }
+
+    /*05. Get free quote!! style 2 CSS*/
+    .get-free-quote-style-2 {
+        padding: 30px 0;
+    }
+
+    .get-free-quote-style-2 h6 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .get-free-quote-style-2 h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /*06. Logos section style 2 CSS*/
+
+    .logos-section-style-2 .logos-slider {
+        padding: 30px 0;
+    }
+
+    /*07. How we help section style 2 CSS*/
+    .how-we-help-tabs-list .tabs-list {
+        margin-bottom: 0px;
+    }
+
+    .how-we-help-feature-img {
+        margin-bottom: 20px;
+    }
+
+    .how-we-help-feature-content p {
+        min-height: auto;
+    }
+
+    .how-we-help-tabs-list .tabs-content.current {
+        padding-bottom: 0;
+    }
+
+    /*08. our services section style 2 CSS*/
+    .our-services-section-style-2 .section-heading {
+        margin-bottom: 30px;
+    }
+
+    .our-services-section-style-2 .what-we-do-service {
+        display: block;
+        text-align: center;
+    }
+
+    .our-services-section-style-2 .what-we-do-service .circle-icon {
+        margin: 0 auto 10px;
+        width: 90px;
+        height: 90px;
+    }
+
+    /*09. Testimonial section style 2 CSS*/
+    .testimonial-section-style-2 {
+        padding-bottom: 100px;
+    }
+
+    .testimonial-slider-home-2 .swiper-pagination {
+        position: absolute;
+        margin: 0;
+        bottom: -50px;
+    }
+
+    .testimonial-slider-home-2 .testimonial-info p {
+        margin-bottom: 30px;
+    }
+
+    .testimonial-user .avatar-img {
+        width: 75px;
+        height: 75px;
+    }
+
+    /*10. Pricing section style 2 CSS*/
+    .pricing-box {
+        margin-bottom: 20px;
+        padding: 25px 0px 25px;
+    }
+
+    .pricing-box .pricing-heading {
+        display: block;
+        text-align: center;
+    }
+
+    .pricing-box .pricing-title p {
+        margin: 0 auto;
+    }
+
+    .pricing-box .pricing-heading .pricing-icon {
+        margin: 0 auto 10px;
+    }
+
+    .pricing-box .pricing-title h5 {
+        margin-bottom: 5px;
+    }
+
+    .pricing-box .pricing-list {
+        padding: 0 15px;
+    }
+
+    .pricing-box .pricing-list ul li {
+        font-size: var(--font-size-b3);
+    }
+
+    /*11. Latest blog posts section style 2 CSS*/
+    .blog-posts-section-style-2 .section-heading {
+        margin-bottom: 30px;
+    }
+
+    .blog-posts-section-style-2 {
+        padding: 40px 0;
+    }
+
+    .blog-posts-section-style-2 .row-custome {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .blog-posts-section-style-2 .row-custome .col-md-4 {
+        -ms-grid-column: span 1;
+        grid-column: span 1;
+    }
+
+    .blog-posts-section-style-2 .row-custome .col-md-6 {
+        -ms-grid-column: span 1;
+        grid-column: span 1;
+        -ms-grid-row: span 1;
+        grid-row: span 1;
+    }
+
+    .blog-grid-style-2 .blog-date {
+        margin-bottom: 15px;
+    }
+
+    .col-md-6 .blog-grid-style-2 .blog-info h5 {
+        font-size: var(--font-size-b1);
+        line-height: var(--line-height-b3);
+    }
+
+    .blog-grid-style-2 p {
+        margin-bottom: 0;
+    }
+
+    /*12. Footer style 2 CSS */
+    .footer-style-2 {
+        padding: 30px 0 22px 0;
+    }
+
+    .footer-style-2 .footer-logo {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .footer-right-menu ul {
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 15px;
+        justify-content: center;
+    }
+
+    .footer-style-2 .footer-bottom-wrap {
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+
+    .footer-style-2 .footer-about-text p {
+        margin-bottom: 40px;
+    }
+
+    .footer-address-style-2 {
+        max-width: 220px;
+        margin: 0 auto 20px;
+    }
+
+    .footer-address-style-2 p {
+        margin-bottom: 15px;
+    }
+
+    .footer-copyright-style-2 {
+        border-top: 1px solid #35474A;
+        padding-top: 20px;
+    }
+
+
+    /*================ 
+        Home page Three
+    ==================*/
+
+    /*01. Header style 3 CSS*/
+    .header-style-3 .logo-img {
+        margin: 0;
+    }
+
+    .header.sticky .main-navigation {
+        padding: 10px 0;
+    }
+
+    /*02. Hero banner section style 3 CSS*/
+    .hero-section-style-3 {
+        background-position: left bottom -140px;
+        background-size: 70%;
+    }
+
+    .hero-section-style-3 .hero-images-style-3:before {
+        width: calc(100% + 12px);
+        height: calc(100% - 100px);
+    }
+
+    .hero-images-style-3 {
+        padding-top: 35px;
+    }
+
+    .hero-section-style-3 .hero-images-box:before {
+        content: '';
+        padding-top: 70%;
+        display: block;
+    }
+
+    .hero-section-style-3 .hero-images-box {
+        margin-bottom: 0px;
+        border-radius: 30px 0px 0px 30px;
+    }
+
+    .hero-section-style-3 .hero-images-box img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .hero-section-style-3 .hero-content {
+        padding: 50px 0;
+    }
+
+    .hero-section-style-3 .hero-content h1 {
+        max-width: 100%;
+    }
+
+
+    /*03. our services section style 3 CSS*/
+    .our-services-section-style-3 .section-heading {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .right-view-btn {
+        text-align: center;
+    }
+
+    .what-we-do-service.service-style-3 {
+        gap: 35px;
+    }
+
+    /*04. about company section style 3 CSS*/
+    .about-image-gallery-style-3 .about-image-info {
+        right: 0px;
+    }
+
+    .about-image-gallery-style-3 {
+        padding-right: 115px;
+        margin-bottom: 40px;
+    }
+
+    .about-image-gallery-style-3 .about-image-small {
+        max-width: 255px;
+        margin: -150px -75px 0 auto;
+    }
+
+    .about-info-style-3 .bottom-contact-btn {
+        margin-top: 10px;
+    }
+
+    .about-info-style-3 .about-feature-list {
+        margin-bottom: 0;
+    }
+
+    .about-info-style-3 {
+        padding-right: 0px;
+    }
+
+    /*05. Why choose Us? section style 2 CSS*/
+    .why-choose-us-grid-slider .swiper-pagination {
+        margin-top: 30px;
+    }
+
+    /* 06. Our Recent Projects section style 3 CSS*/
+    .our-recent-projects-section {
+        padding: 60px 0;
+    }
+
+    .button-tabs-list {
+        padding: 0 15px;
+        margin-bottom: 10px;
+    }
+
+    .button-tabs-list li {
+        min-width: auto;
+        padding: 11px 25px;
+        margin-right: 5px;
+    }
+
+    .recent-projects-gallery .tabs-content.current {
+        padding-bottom: 0;
+    }
+
+    /*07. Blog & Articles section style 3 CSS*/
+    .blog-articles-section-style-3 .section-heading {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .read-more-right {
+        text-align: center;
+    }
+
+    .blog-articles-section-style-3 {
+        padding-bottom: 60px;
+    }
+
+    /*08. Footer style 3 CSS*/
+    .footer-three .footer-top .footer-widget-about {
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-three .footer-newsletter {
+        border-top: 1px solid #3D3D3D;
+        border-bottom: 1px solid #3D3D3D;
+        padding: 20px 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-three .newsletter-form p {
+        max-width: 100%;
+    }
+
+    .footer-three .footer-newsletter h6:after {
+        margin: 7px auto 0;
+    }
+
+    .footer-three .footer-bottom-part p {
+        text-align: center;
+    }
+
+
+
+    /*================ 
+        About us page Three
+    ==================*/
+    /*02. Inner hero section style CSS*/
+    .inner-hero-section {
+        padding: 60px 0 40px;
+        margin-bottom: 20px;
+    }
+
+    .inner-hero-section h1 {
+        margin-bottom: 0;
+        font-size: var(--h5);
+        line-height: var(--h5-lineHeight);
+    }
+
+    .breadcrumb li,
+    .breadcrumb li a {
+        font-size: var(--font-size-b3);
+    }
+
+    .inner-banner-img:before {
+        background-position: left -10px bottom -110px;
+        background-size: 300px;
+    }
+
+    /*02. Our Specialties section style CSS*/
+
+    .our-specialties-box {
+        padding: 30px;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        text-align: left;
+    }
+
+    .our-specialties-box .icon {
+        margin: 0;
+    }
+
+    /*03. Our Team Members section style CSS*/
+    .team-members-section {
+        padding-bottom: 80px;
+    }
+
+    .team-members-box {
+        margin-bottom: 30px;
+    }
+
+    .team-members-box .social-link {
+        column-gap: 15px;
+    }
+
+    .team-members-box .team-members-img {
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .our-team-members-slider .swiper-button-next {
+        right: calc(50% - 33px);
+    }
+
+    .our-team-members-slider .swiper-button-prev {
+        left: calc(50% - 33px);
+    }
+
+    .our-team-members-slider .swiper-button-next,
+    .our-team-members-slider .swiper-button-prev {
+        top: auto;
+        bottom: -40px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .our-team-members-slider .swiper-button-next:after,
+    .our-team-members-slider .swiper-button-prev:after {
+        font-size: 16px;
+    }
+
+    /*03. Quick Online Consultancy section style CSS*/
+    .quick-consultancy-form {
+        padding: 20px 15px;
+        margin-top: 70px;
+    }
+
+    .quick-consultancy-service {
+        width: 100px;
+        height: 100px;
+        font-size: var(--font-size-b4);
+        line-height: var(--line-height-b5);
+        bottom: -45px;
+        right: 31px;
+    }
+
+    .quick-consultancy-form h3 {
+        margin-bottom: 15px;
+        font-size: var(--font-size-b2);
+        line-height: var(--h4-lineHeight);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        padding: 11px 20px;
+    }
+
+    .quick-consultancy-form .btn {
+        min-width: 150px;
+    }
+
+    /*================ 
+        Our services page style
+    ==================*/
+    /*01. our services section page style CSS*/
+    .our-services-section-page {
+        padding: 30px 0 30px;
+    }
+
+    .inner-wrapper {
+        padding: 30px 0;
+    }
+
+    .read-more-bottom {
+        margin-top: 0px;
+    }
+
+    /*================ 
+        Service detail page style
+    ==================*/
+    .section-heading-des,
+    .inner-heading {
+        text-align: center !important;
+    }
+
+    /*01. Inner Image with text section style CSS*/
+    .inner-image-with-text-section {
+        padding: 30px 0 40px;
+    }
+
+    .inner-image-box {
+        margin-bottom: 20px;
+    }
+
+    .inner-image-with-text-section .image-with-text-content .title {
+        margin-bottom: 10px;
+    }
+
+    .icon-box-list {
+        margin-top: 30px;
+    }
+
+    .icon-box-list .icon-box {
+        margin-bottom: 20px;
+        height: auto;
+        padding: 13px;
+    }
+
+    .icon-box-list .icon-box h6 {
+        font-size: var(--font-size-b3);
+    }
+
+    /*02. inner why choose section style CSS*/
+    .inner-why-choose-section .ul-list li {
+        width: 100%;
+    }
+
+    /*02. Image with text overlay section style CSS*/
+    .image-with-text-overlay-section {
+        padding: 105px 0 0;
+        text-align: center;
+    }
+
+    .call-action-quote {
+        padding: 10px 20px 12px;
+        margin-left: -12px;
+        text-align: left;
+        gap: 20px;
+    }
+
+    .call-action-quote .phone-icon {
+        max-width: 30px;
+    }
+
+    .call-action-quote p {
+        font-size: var(--font-size-b3);
+        line-height: var(--line-height-b3);
+    }
+
+    /*03. inner why choose section style CSS*/
+    .inner-why-choose-section {
+        padding: 60px 0 50px;
+    }
+
+    .inner-why-choose-section .ul-list li {
+        width: calc(50% - 15px);
+        font-size: var(--font-size-b3);
+    }
+
+    /*Accordion style*/
+    .accordion-list .accordion-tabs h3 {
+        font-size: var(--font-size-b3);
+        line-height: var(--line-height-b3);
+    }
+
+    .accordion-list .accordion-tabs:after {
+        width: 35px;
+        height: 35px;
+    }
+
+    .accordion .accordion-list {
+        margin-bottom: 15px;
+    }
+
+
+    /*04. Related section style CSS*/
+    .related-services-wrap {
+        padding: 30px 16px 10px;
+        margin: 0 -12px;
+    }
+
+    /*================================== 
+        Portfolio Detail page style
+    ====================================*/
+    /*01. inner cms section style CSS*/
+    .portfolio-gallery {
+        margin: 30px 0;
+    }
+
+    /*================================== 
+       Testimonial page style
+    ====================================*/
+    /*01. Testimonial grid style CSS*/
+    .testimonial-grid .col-md-6 {
+        margin-bottom: 15px;
+    }
+
+    /*================================== 
+       Team Member detail page style
+    ====================================*/
+    .contact-address p {
+        margin-bottom: 20px;
+    }
+
+    .bottom-55 {
+        margin-bottom: 30px;
+    }
+
+    .skill-progress {
+        margin-top: 30px;
+    }
+
+    .skill-progress .progress-list {
+        margin-bottom: 15px;
+    }
+
+    /*================================== 
+       Blog Standard page style
+    ====================================*/
+    /*01. blog full grig style CSS*/
+    .blog-full-grig .blog-info .blog-admin-info {
+        flex-wrap: wrap;
+        font-size: var(--font-size-b5);
+        margin-bottom: 10px;
+    }
+
+    .blog-admin-info .blog-date {
+        margin: 5px 0 0 5px;
+        font-size: var(--font-size-b5);
+    }
+
+    .blog-full-grig .blog-info h6 {
+        font-size: var(--h6);
+        line-height: var(--h6-lineHeight);
+    }
+
+    .blog-full-grig {
+        margin-bottom: 30px;
+    }
+
+    /*02. Sidebar style CSS*/
+    .sidebar {
+        margin-top: 50px;
+    }
+
+    .sidebar .widget {
+        margin-bottom: 40px;
+    }
+
+    /*================ 
+        blog single page style
+    ==================*/
+    /*01. blog single content style CSS*/
+    .blog-single-content .blog-thumb-img {
+        margin-bottom: 15px;
+        border-radius: var(--radius-md);
+    }
+
+    .blog-single-content .blog-info .blog-admin-info {
+        margin-bottom: 10px;
+    }
+
+    .blockqoute {
+        padding: 20px 20px;
+        gap: 0px;
+        text-align: center;
+        display: block;
+        font-size: var(--font-size-b3);
+        line-height: var(--line-height-b3);
+    }
+
+    .blockqoute:before {
+        width: 40px;
+        height: 40px;
+        display: block;
+        margin: 0 auto 15px;
+    }
+
+    .blog-single-content {
+        margin-bottom: 0px;
+    }
+
+    .blog-details-tags .blog-tags li:first-child {
+        margin-left: 0;
+    }
+
+    .blog-details-tags {
+        gap: 10px;
+    }
+
+    .blog-details-tags .blog-tags {
+        margin-right: 15px;
+    }
+
+    .blog-details-tags .social-link {
+        margin-left: 0;
+
+    }
+
+    /*================ 
+        Contact page style
+    ==================*/
+    .contact-page {
+        padding-bottom: 0;
+    }
+
+    /*01. Contact detail box style CSS*/
+    .contact-detail-box {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .contact-box-wrap {
+        margin: 50px 0 30px;
+    }
+
+    .contact-box-style-2 .icon {
+        max-width: 30px !important;
+    }
+
+    .contact-gallery .about-image.image-2:before {
+        padding-top: 65%;
+    }
+
+    /*02. Contact form section style CSS*/
+    .contact-form-section {
+        padding: 40px 0;
+        margin: 0 0;
+    }
+
+    /*03. Contact map style CSS*/
+    .contact-pam {
+        border-radius: 0px;
+        margin: 0 -12px;
+    }
+
+    .contact-pam iframe {
+        height: 300px;
+        display: block;
+    }
+
+    /*================ 
+        404 page style
+    ==================*/
+
+    /*01. not found content style CSS*/
+    .not-found-content img {
+        margin-bottom: 20px;
+    }
+
+    .not-found-info p {
+        font-size: var(--font-size-b2);
+        line-height: var(--line-height-b2);
+    }
+
+    /*================ 
+        Presantation page style
+    ==================*/
+
+    .header-style-3 .header-right .menu-btn a {
+        padding: 8px 15px;
+    }
+
+    /*01. Presantation hero banner section CSS*/
+    .presantation-hero-section {
+        padding: 85px 0 60px;
+    }
+
+    .presantation-hero-section p {
+        margin-bottom: 20px;
+    }
+
+    /*02. Stunning Home grig section CSS*/
+    .presantation-heading.section-heading h2.title {
+        font-size: var(--h5);
+    }
+
+    /*03. Stunning Inner grig section CSS*/
+    .stunning-inner-grig {
+        padding: 40px 0;
+    }
+
+    /*04. Multipurpose HTML section CSS*/
+    .multipurpose-html-section h3 {
+        font-size: var(--h5);
+        line-height: var(--h5-lineHeight);
+        margin: 0 auto 30px;
+    }
+
+    .multipurpose-html-images {
+        margin-right: -35px;
+        margin-bottom: 20px;
+    }
+
+    /*05. Presantation Why choose Us? section CSS*/
+    .presantation-why-choose {
+        margin-top: 40px;
+    }
+
+    .presantation-why-choose .why-choose-us-grid .why-choose-us-icon {
+        margin-bottom: 20px;
+    }
+
+    .presantation-why-choose .why-choose-us-grid {
+        margin-bottom: 20px;
+    }
+
+    .presantation-why-choose .why-choose-us-grid p {
+        font-size: var(--font-size-b2);
+    }
+
+    /*06. footer four CSS*/
+    .footer-four {
+        padding: 30px 0;
+    }
+
+    .footer-four img {
+        margin-bottom: 20px;
+        max-width: 50px;
+    }
+
+    .footer-four h2 {
+        font-size: var(--h5);
+        line-height: var(--h5-lineHeight);
+        margin-bottom: 20px;
+    }
+
+    .footer-four p {
+        font-size: var(--font-size-b3);
+        margin-bottom: 25px;
+    }
+
+    /*================ 
+        Career page style
+    ==================*/
+    /*01. Career Opportunity section CSS*/
+    .career-opportunity-section .section-heading {
+        text-align: left !important;
+    }
+
+    .career-opportunity-section .section-heading .title {
+        margin-bottom: 15px;
+    }
+
+    .career-opportunity-box {
+        padding: 20px 15px;
+    }
+
+    .career-opportunity-box p {
+        font-size: var(--font-size-b3);
+        line-height: var(--line-height-b4);
+    }
+
+    /*02. Current Openings section CSS*/
+    .current-opportunity-section .section-heading .title {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .current-opportunity-section .accordion-content p {
+        font-size: var(--font-size-b3);
+        line-height: var(--line-height-b4);
+    }
+
+    .current-opportunity-section .accordion-content h6 {
+        font-size: var(--font-size-b4);
+        margin-bottom: 15px;
+    }
+
+    .current-opportunity-section .accordion-content .btn {
+        font-size: var(--font-size-b3);
+    }
+
+    .current-opportunity-section .accordion-content {
+        padding: 15px 20px 20px;
+    }
+
+    /*03. Recruitment Process section CSS*/
+    .recruitment-process-section .section-heading {
+        margin-bottom: 25px;
+    }
+
+    .recruitment-process-box h3 {
+        padding: 8px 10px;
+    }
+
+    .recruitment-process-box .process-box-body {
+        padding: 15px 15px;
+    }
+
+    .recruitment-process-wrap {
+        margin-bottom: 35px;
+    }
+
+    .recruitment-process-wrap:before {
+        left: 50%;
+        top: -23px;
+        background-size: 20px;
+        width: 21px;
+        height: 15px;
+        transform: translateX(-50%) rotate(90deg);
+    }
+
+    .recruitment-process-section .col-lg-3:last-child .recruitment-process-wrap {
+        margin-bottom: 0;
+    }
+
+    .recruitment-process-section .col-lg-3:nth-of-type(2n+1) .recruitment-process-wrap:before {
+        display: block;
+    }
+
+    .mt-7 {
+        margin-top: 2rem;
+    }
+
+    .m-top {
+        margin-top: -2rem;
+    }
+
+    /*04. how we care section*/
+    .how-we-care-box {
+        margin-bottom: 15px;
+    }
+
+    .how-we-care-section:before {
+        display: none;
+    }
+
+    .how-we-care-box .how-we-care-title a {
+        font-size: var(--font-size-b4);
+        padding: 5px 10px;
+        line-height: normal;
+    }
+
+    .how-we-care-info {
+        padding: 30px 0;
+        position: relative;
+    }
+
+    .how-we-care-info:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(90deg, rgba(242, 222, 186, 0) 0%, rgba(242, 222, 186, 0.5) 100%);
+        border-radius: 0 400px 400px 0;
+    }
+
+    .how-we-care-section p,
+    .how-we-care-section .section-heading {
+        position: relative;
+    }
+
+    /*===================== 
+        all pupop CSS style
+    =======================*/
+    .all-pupop {
+        padding: 25px 15px !important;
+        border-radius: 20px;
+        margin: 20px auto;
+    }
+
+    .all-pupop .mfp-close {
+        right: -4px;
+        top: -10px;
+        background: #ededed;
+        opacity: 1;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+    }
+
+    .popup-title {
+        font-size: var(--h5);
+        line-height: var(--h5-lineHeight);
+    }
+
+    .newsletter-form-popup .newsletter-form {
+        border-radius: 20px;
+        padding: 15px 20px 15px;
+    }
+
+    .newsletter-form-popup .newsletter-form .form-control {
+        margin-bottom: 15px;
+        padding: 15px 15px;
+    }
+
+    .newsletter-form-popup .btn {
+        font-size: var(--font-size-b3);
+    }
+
+    /*enquiry form popup*/
+    .custom-file {
+        gap: 10px;
+    }
+
+    .custom-file .choose-file {
+        padding: 9px 15px;
+        font-size: var(--font-size-b3);
+    }
+
+    .enquiry-form-popup .btn,
+    .custom-file .custom-file-label {
+        font-size: var(--font-size-b3);
+    }
+
+    /*Team Popup style*/
+    .team-popup .skill-progress {
+        margin-top: 0px;
+    }
+
+    /*cookie popup*/
+    .cookie-button .button-column {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .cookie-popup {
+        padding: 20px 0 20px;
+    }
+
+    .cookie-button .button-column .btn {
+        padding: 9px 35px;
+        font-size: var(--font-size-b3);
+    }
+
+    .cookie-popup .section-heading {
+        margin-bottom: 10px;
+    }
+
+    .cookie-popup .popup-title {
+        font-size: var(--h6);
+        line-height: var(--h6-lineHeight);
+    }
+
+    /*Langing page style*/
+    .blog-articles-section-style-4 {
+        padding: 50px 0;
+    }
+
+    .contact-section-3 {
+        padding: 50px 0;
+    }
+
+    .blog-grid-style-3.case-study {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .blog-grid-style-3.case-study .blog-img,
+    .blog-grid-style-3.case-study .blog-info {
+        width: 100%;
+    }
+
+    .case-study-info table.info th,
+    .case-study-info table.info td {
+        padding: 8px 10px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+}
+
+/*======================================
+ 03. 575px Mobile layout CSS
+========================================*/
+
+@media only screen and (max-width: 575px) {
+
+    /*-- Mixins --*/
+
+    h2.title {
+        font-size: var(--30);
+        line-height: var(--h4-lineHeight);
+    }
+
+    .section-heading {
+        margin-bottom: 20px;
+    }
+
+    .circle-icon {
+        padding: 3px;
+    }
+
+    .sub-title {
+        margin-bottom: 10px;
+    }
+
+    /*01. Header CSS*/
+
+
+    /*02. Hero section CSS*/
+    .hero-content h1 span:before {
+        display: none;
+    }
+
+    .hero-content .sub-title {
+        margin-bottom: 5px;
+    }
+
+    .hero-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hero-btn img {
+        max-width: 20px;
+    }
+
+    .hero-btn:before {
+        top: 0px;
+        left: 0px;
+    }
+
+    .hero-images:before {
+        width: 209px;
+    }
+
+    .hero-line-shape {
+        max-width: 170px;
+    }
+
+    /*03. business services section CSS*/
+    .business-shape {
+        width: 186px;
+        height: 186px;
+    }
+
+    .business-shape:before {
+        width: 128px;
+        height: 108px;
+    }
+
+    .shape-circle {
+        top: 164px;
+        left: 40px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .business-service-icon {
+        margin: 0 auto 20px;
+        height: 65px;
+        width: 65px;
+    }
+
+    .business-service-icon:before {
+        width: 55px;
+        height: 50px;
+        top: -25px;
+    }
+
+    /*04. about company section CSS*/
+    .about-company-section {
+        padding: 0 0px;
+    }
+
+    .about-image-gallery {
+        gap: 10px;
+    }
+
+    .about-image-gallery .about-image.image-1 {
+        border-radius: 30px 0px 0px 0px;
+    }
+
+    .about-image-gallery .about-image.image-2 {
+        border-radius: 0px 0px 30px 0px;
+    }
+
+    .about-video-icon {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .about-video-icon .circle-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .about-feature-list {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .about-feature-list .our-feature {
+        gap: 15px;
+    }
+
+    /*05. What we do section CSS*/
+    .what-we-do-slider {
+        padding-top: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .what-we-do-slider .swiper-button-prev {
+        left: 0px;
+    }
+
+    .what-we-do-slider .swiper-button-next {
+        right: 0px;
+    }
+
+    .what-we-do-service {
+        padding: 25px 15px;
+    }
+
+    .what-we-do-service .circle-icon {
+        margin: 0 auto 15px;
+    }
+
+    .what-we-do-service h6 {
+        margin-bottom: 5px;
+    }
+
+
+    .what-we-do-section,
+    .business-services-section,
+    .why-choose-us-section,
+    .our-sucess-box,
+    .testimonial-section,
+    .blog-articles-section {
+        padding: 40px 0;
+    }
+
+    /*06. Why choose Us? section*/
+    .whychooseus-feature-list .tabs-content .whychooseus-feature-img {
+        padding: 0;
+    }
+
+    .whychooseus-feature-img {
+        padding: 0 0 0 15px;
+    }
+
+    .whychooseus-feature-img:before {
+        top: -20px;
+        left: 5px;
+        width: calc(100% - 50px);
+    }
+
+    .tab-link-title {
+        display: block;
+    }
+
+    .whychooseus-feature-list {
+        border-bottom: 1px solid var(--color-secondary-200);
+    }
+
+    .tabs-content.current {
+        padding: 30px 0;
+    }
+
+    /*07. our sucess section*/
+    .our-sucess-section {
+        padding: 0 15px;
+    }
+
+    .our-sucess-box h2.title {
+        font-size: var(--h6);
+        line-height: var(--h6-lineHeight);
+    }
+
+    .our-sucess-service h2 {
+        font-size: var(--h3);
+        line-height: var(--h4-lineHeight);
+    }
+
+    .our-sucess-service h6,
+    .our-sucess-service .h6 {
+        font-size: var(--font-size-b4);
+        line-height: var(--line-height-b4);
+    }
+
+    /*08. Testimonial section*/
+    .testimonial-info {
+        padding: 0 0px;
+    }
+
+    .testimonial-slider .swiper-button-next,
+    .testimonial-slider .swiper-button-prev {
+        display: none;
+    }
+
+    .testimonial-slider .swiper-pagination {
+        display: flex;
+        position: static;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    /*09. How we help section*/
+    .how-we-help-service {
+        padding: 20px 15px;
+    }
+
+    .how-we-help-service .icon {
+        margin-bottom: 15px;
+    }
+
+    /*10. blog grid*/
+    .blog-articles-section .read-more-right {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .blog-articles-section .section-heading {
+        text-align: center;
+    }
+
+    .blog-grid .blog-info h5 {
+        margin-bottom: 5px;
+    }
+
+    /*11. Footer style*/
+    .footer-one .get-free-quote-form {
+        display: block;
+    }
+
+    .footer-one .get-free-quote-form .btn {
+        position: static;
+        width: 100%;
+    }
+
+    .footer-one .get-free-quote-form .form-control {
+        margin-bottom: 10px;
+        padding: 12px 20px;
+    }
+
+    /*================ 
+        Home page Two
+    ==================*/
+
+    /*01. Header style 2 CSS*/
+    .header-social li a {
+        font-size: var(--font-size-b4);
+    }
+
+    /*02. our sucess section style 2 CSS*/
+    .our-sucess-box-style-2 .our-sucess-service {
+        padding: 25px 10px;
+        margin-bottom: 0;
+    }
+
+    .about-image-gallery-style-2 .about-image.image-2 {
+        max-width: 150px;
+        margin: -90px 0 0 auto;
+    }
+
+    .about-video-style-2 {
+        display: block;
+    }
+
+    .about-video-style-2 .about-video-dec {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-video-style-2 .about-video-box {
+        width: 100%;
+    }
+
+    .about-company-section-style-2 .about-feature-list .our-feature {
+        justify-content: center;
+    }
+
+    /*03. Get free quote!! style 2 CSS*/
+    .get-free-quote-style-2 .get-free-quote-form .btn {
+        width: 115px;
+        padding: 11px 15px;
+        font-size: var(--font-size-b3);
+    }
+
+    .get-free-quote-style-2 .get-free-quote-form .form-control {
+        padding: 10px 10px;
+    }
+
+    /*04. Logos section style 2 CSS*/
+    .logos-section-style-2 .logos-slider .logos-box {
+        padding: 0 10px;
+    }
+
+    /*05. Why choose Us? section style 2 CSS*/
+    .why-choose-us-section-style-2 {
+        padding: 40px 0 10px;
+    }
+
+    .why-choose-us-section-style-2 .section-heading {
+        margin-bottom: 30px;
+    }
+
+    .why-choose-us-grid .why-choose-us-icon {
+        width: 80px;
+        height: 80px;
+        padding: 15px;
+    }
+
+    /*06. How we help section style 2 CSS*/
+    .how-we-help-content {
+        padding: 40px 20px;
+    }
+
+    /*07. our services section style 2 CSS*/
+    .our-services-section-style-2 {
+        padding: 40px 0 60px;
+    }
+
+    /*08. Pricing section style 2 CSS*/
+    .pricing-section-style-2 {
+        padding: 40px 0 40px;
+    }
+
+    /*09. Latest blog posts section style 2 CSS*/
+    .blog-grid-style-2 .blog-date .btn {
+        padding: 8px 15px;
+    }
+
+
+    /*================ 
+        Home page Three
+    ==================*/
+
+    /*01. Header style 3 CSS*/
+
+
+    /*02. Hero banner section style 3 CSS*/
+    .hero-section-style-3 {
+        padding: 60px 0 0;
+        background-position: left bottom -100px;
+        background-size: 100%;
+    }
+
+    /* 03. Logos section style 3 CSS*/
+    .logos-section-style-3 .logos-gallery {
+        gap: 20px;
+    }
+
+    /*04. our services section style 3 CSS*/
+    .our-services-section-style-3 {
+        padding-top: 10px;
+    }
+
+    .what-we-do-service.service-style-3 {
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .what-we-do-service.service-style-3 p {
+        line-height: 20px;
+        font-size: 15px;
+
+    }
+
+    .what-we-do-service.service-style-3 .our-services-info p {
+        margin-bottom: 10px;
+    }
+
+    /*05. about company section style 3 CSS*/
+    .about-company-section-style-3 {
+        padding: 20px 0 60px;
+    }
+
+    .about-image-gallery-style-3 {
+        padding-right: 85px;
+        margin-bottom: 40px;
+    }
+
+    .about-image-gallery-style-3 .about-image-small {
+        max-width: 230px;
+        margin: -80px -75px 0 auto;
+    }
+
+    .about-image-gallery-style-3 .about-image-info {
+        top: 45px;
+        padding: 15px 15px 15px 46px;
+        max-width: 208px;
+    }
+
+    .about-image-gallery-style-3 .about-image-info p {
+        font-size: var(--font-size-b4);
+        line-height: 20px;
+    }
+
+    .about-info-style-3 .about-feature-list .our-feature {
+        gap: 20px;
+    }
+
+    /*06. Why choose Us? section style 2 CSS*/
+    .why-choose-us-grid-style-3 .circle-icon {
+        margin: -35px auto 15px;
+        width: 73px;
+        height: 73px;
+    }
+
+    .why-choose-us-grid-style-3 .why-choose-info {
+        padding: 0 0px 8px;
+    }
+
+    .why-choose-us-grid-style-3 .why-choose-info h4 {
+        font-size: var(--font-size-b3);
+        line-height: 22px;
+        color: var(--color-dark);
+        margin-bottom: 12px;
+    }
+
+
+    /*07. Our Recent Projects section style 3 CSS*/
+    .recent-projects-gallery .tabs-content .row {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .recent-projects-gallery .tabs-content .col-6 {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .projects-gallery-box {
+        margin-bottom: 10px;
+    }
+
+    /*08. Testimonial section style 3 CSS*/
+    .testimonial-section-style-3 {
+        padding: 40px 0;
+    }
+
+    .testimonial-slider-home-3 {
+        height: 700px;
+    }
+
+    .testimonial-grid .testimonial-item-box,
+    .testimonial-slider-home-3 .testimonial-item-box {
+        padding: 15px 15px;
+        gap: 12px;
+        min-height: 220px;
+    }
+
+    /*09. How We Work section style 3 CSS*/
+    .how-we-work-section-style-3 {
+        padding: 40px 0;
+    }
+
+    .how-we-work-section-style-3 .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    /*================================== 
+       Testimonial page style
+    ====================================*/
+    /*01. Testimonial grid style CSS*/
+    .testimonial-grid .testimonial-item-box {
+        min-height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 481px) {
+
+    /*================ 
+        Home page Three
+    ==================*/
+
+    /*01. Footer style 3 CSS*/
+    .footer-three h6 {
+        margin-bottom: 15px;
+    }
+
+    .footer-three .footer-top .menu-row .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    /*02. Blog & Articles section style 3 CSS*/
+    .blog-grid-style-3 {
+        display: block;
+    }
+
+    .blog-grid-style-3 .blog-info,
+    .blog-grid-style-3 .blog-img {
+        width: 100%;
+    }
+
+    .blog-grid-style-3 .blog-info {
+        padding: 15px 0;
+    }
+
+    .blog-articles-section-style-3 {
+        padding-bottom: 30px;
+    }
+
+    .blog-grid-style-3.case-study .blog-info {
+        padding: 18px 0 0px;
+    }
+
+    .blog-grid-style-3.case-study h6 {
+        font-size: 22px;
+    }
+
+    .blog-grid-style-3.case-study a.btn.btn-primary {
+        font-size: 15px;
+        padding: 6px 25px;
+    }
+
+    .blog-grid-style-3.case-study .blog-date {
+        padding: 4px 16px;
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .header-style-2 .logo-img .mobile-logo {
+        margin-left: -50px;
+        max-width: 116px;
+    }
+}
+
+/*======================================
+  End Media CSS
+========================================*/
