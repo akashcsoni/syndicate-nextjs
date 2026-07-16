@@ -5109,8 +5109,7 @@ textarea.form-control {
 
 .breadcrumb {
     margin: 0;
-    color: var(--color-white -webkit-box-pack: justify;
-            -ms-flex-pack: justify; );
+    color: var(--color-white);
     justify-content: center;
 }
 

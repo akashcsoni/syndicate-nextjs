@@ -525,7 +525,8 @@
     }
 
     /*02. Testimonial section style 3 CSS*/
-    .testimonial-grid .testimonial-item-box. .testimonial-slider-home-3 .testimonial-item-box {
+    .testimonial-grid .testimonial-item-box,
+    .testimonial-slider-home-3 .testimonial-item-box {
         padding: 25px 25px;
     }
 
