@@ -1,5 +1,5 @@
-export const FRONTEND_URL = "https://syndicate-nextjs-strapi.vercel.app/";
-export const BACKEND_URL = "https://syndicate-strapi.webbydemo.in/";
+export const FRONTEND_URL = "https://syndicate-nextjs-strapi.vercel.app";
+export const BACKEND_URL = "https://syndicate-strapi.webbydemo.in";
 
 const themeConfig = {
   apiToken:
